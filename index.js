@@ -41,7 +41,7 @@ request.get(scrapperPath, function (err, http, body) {
             return a.getAttribute('href').indexOf('youtube.com') > -1;
         }).map(a => a.getAttribute('href'));
 
-        async.forEachOfSeries(_.take(youtubeAnchorTags, 1),
+        async.forEachOfSeries(youtubeAnchorTags,
             function (youtube, index, cb) {
                 var video = youtubedl(youtube,
 
