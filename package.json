@@ -1,0 +1,23 @@
+{
+  "name": "github-youtube-video-scrapper",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "adm-zip": "^0.4.7",
+    "async": "^2.0.1",
+    "express": "^4.14.0",
+    "jsdom": "^9.6.0",
+    "lodash": "^4.16.4",
+    "mailgun-js": "^0.7.12",
+    "mkdirp": "^0.5.1",
+    "request": "^2.75.0",
+    "youtube-dl": "^1.11.1"
+  }
+}
